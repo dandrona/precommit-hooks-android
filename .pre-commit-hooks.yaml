@@ -26,9 +26,9 @@
     pass_filenames: false
     language: system
 
--    id: paparazzi
-     name: paparazzi
-     description: Run paparazzi screenshot tests
-     entry: ./gradlew verifyPaparazziDebug
-     pass_filenames: false
-     language: system
+-   id: paparazzi
+    name: paparazzi
+    description: Run paparazzi screenshot tests
+    entry: ./gradlew verifyPaparazziDebug
+    pass_filenames: false
+    language: system
